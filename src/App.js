@@ -14,6 +14,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Homepage />} />
+        <Route path="/cipherRecipe" element={<Homepage />} />
         <Route path="/posts" element={<Homepage />} />
         <Route path="/register" element={ currentUser ? <Homepage  /> : <Register />} />
         <Route path="/login" element={currentUser ? <Homepage /> : <Login />} />
