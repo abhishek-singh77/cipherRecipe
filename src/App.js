@@ -21,25 +21,6 @@ function App() {
         <Route path="/write" element={currentUser ? <Write /> : <Login />} />
         <Route path="/post/:id" element={<Single />} />
       </Routes>
-{/*       <Routes>
-        <Route exact path="/" element={<Homepage />}>
-          <Homepage />
-        </Route>
-        <Route path="/posts" element={<Homepage />}>
-          <Homepage />
-        </Route>
-        <Route path="/register" element={`<Homepage /> ,<Register />`}>
-          {currentUser ? <Homepage /> : <Register />}
-        </Route>
-        <Route path="/login">{currentUser ? <Homepage /> : <Login />}</Route>
-        <Route path="/post/:id">
-          <Single />
-        </Route>
-        <Route path="/write">{currentUser ? <Write /> : <Login />}</Route>
-        <Route path="/settings">
-          {currentUser ? <Settings /> : <Login />}
-        </Route>
-      </Routes> */}
     </Router>
   );
 }
