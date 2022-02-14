@@ -6,10 +6,7 @@ export default function navbar() {
   return (
     <div className="nav">
       <div className="navLeft">
-        <i className="navIcon fab fa-facebook-square"></i>
-        <i className="navIcon fab fa-instagram-square"></i>
-        <i className="navIcon fab fa-pinterest-square"></i>
-        <i className="navIcon fab fa-twitter-square"></i>
+        <h3>RecipeApp</h3>
       </div>
       <div className="navCenter">
         <ul className="navList">

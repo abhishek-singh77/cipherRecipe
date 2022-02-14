@@ -1,5 +1,6 @@
 {
   "name": "recipe_app",
+  "homepage": "https://abhishek-singh.github.io/cipherRecipe/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
