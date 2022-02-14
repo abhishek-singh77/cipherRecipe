@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cipherRecipe/static/css/main.5cb024b6.css",
+    "main.js": "/cipherRecipe/static/js/main.5193d006.js",
+    "static/js/787.13aee4be.chunk.js": "/cipherRecipe/static/js/787.13aee4be.chunk.js",
+    "index.html": "/cipherRecipe/index.html",
+    "main.5cb024b6.css.map": "/cipherRecipe/static/css/main.5cb024b6.css.map",
+    "main.5193d006.js.map": "/cipherRecipe/static/js/main.5193d006.js.map",
+    "787.13aee4be.chunk.js.map": "/cipherRecipe/static/js/787.13aee4be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cb024b6.css",
+    "static/js/main.5193d006.js"
+  ]
+}
