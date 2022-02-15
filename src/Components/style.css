@@ -1,0 +1,197 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(13,219,189);
+    background: linear-gradient(90deg, rgba(13,219,189,1) 0%, rgba(28,189,187,1) 38%, rgba(47,139,217,1) 67%, rgba(9,109,129,1) 100%);
+    padding: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1rem;
+  }
+  .heading {
+    padding: 1rem;
+    margin-left: 2rem;
+  }
+  .status-bar {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .username {
+    display: flex;
+    align-items: center;
+  }
+  
+  .username svg {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
+  @media only screen and (max-width: 760px) {
+    .heading {
+      padding: 0.5rem;
+    }
+    .status-bar {
+      font-size: 1rem;
+    }
+  }
+  
+
+  .post-section {
+    background-color: var(--secondary);
+    text-align: left;
+    max-width: 40%;
+  }
+  .posts-heading {
+    padding: 0.5em 0;
+    padding-left: 1em;
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+  }
+  .posts-heading svg {
+    font-size: 1em;
+    margin-right: 0.5em;
+  }
+  
+  .post-list {
+    list-style-type: none;
+  }
+  .post-item {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+    color:var(--accent1-text);
+  }
+  .post-item:hover {
+    background-color: var(--accent2);
+    cursor: pointer;
+  }
+  .active {
+    background-color: var(--accent2);
+  }
+  
+  .delete-icon {
+    color: var(--danger);
+    padding: 0.5em;
+    display: block;
+  }
+  .delete-icon:hover {
+    cursor: pointer;
+  }
+  .delete-icon:hover svg {
+    transform: scale(1.2);
+  }
+  
+  @media only screen and (max-width: 760px) {
+   .post-section{
+     font-size: 0.8rem;
+   }
+  }
+  
+
+  .post-form input {
+    display: block;
+    width: 70%;
+    margin: 1em auto;
+    padding: 0.5em;
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    border-bottom: 2px solid gray;
+  }
+  .post-form input:focus-visible {
+    outline: none;
+    color: white;
+  }
+  .post-button {
+    display: block;
+    margin: 1em auto;
+    border-radius: 1rem;
+    background-color: var(--accent1);
+  }
+
+
+.recipes-section {
+  flex: 1;
+  color: var(--secondary-text);
+}
+.recipes-heading {
+  padding: 0.5em;
+  padding-left: 1em;
+  text-align: left;
+  font-size: 1.5em;
+}
+.recipes-list {
+  list-style-type: none;
+  text-align: left;
+}
+.recipe {
+  padding: 1em;
+  margin: 1em;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  align-items: flex-start;
+}
+.recipe-description {
+  margin: 0 2em;
+  color: gray;
+}
+.recipe-delete-icon {
+  font-size: 1.2em;
+  color: var(--danger);
+  margin-left: auto;
+}
+.recipe-delete-icon:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.recipe-form {
+  width: 40%;
+  min-width: 25em;
+  margin: 0 auto;
+}
+.recipe-form > label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  margin: 0.5em 0;
+}
+.recipe-form input {
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1em;
+}
+.recipe-form input:focus-visible {
+  outline: none;
+}
+.recipe-button {
+  display: inline-block;
+  margin: 0.5em;
+  background-color: var(--accent1);
+}
+@media only screen and (max-width: 760px) {
+  .recipes-section {
+    font-size: 0.5rem;
+  }
+  .recipe {
+    flex-direction: column;
+  }
+  .recipe h4{
+    font-size: 1rem;
+  }
+  .recipe-form {
+    width: 90%;
+  }
+  .recipe-form input {
+    width: 50%;
+  }
+}
+
